@@ -51,7 +51,7 @@ specifiers:
   tsconfig-paths-webpack-plugin: 3.5.2
   typescript: 4.5.2
   unified: 10.1.0
-  unist-util-visit: 2.0.3
+  unist-util-visit: 4.1.0
   vfile: 5.2.0
   whatwg-fetch: 3.6.2
   yaml: 1.10.2
@@ -83,7 +83,7 @@ dependencies:
   sharp: 0.29.0
   tailwindcss: 2.2.19_7b69a43ec4689fa7484dee35f79a7806
   unified: 10.1.0
-  unist-util-visit: 2.0.3
+  unist-util-visit: 4.1.0
   vfile: 5.2.0
   yaml: 1.10.2
 
