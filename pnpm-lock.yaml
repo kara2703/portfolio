@@ -23,7 +23,7 @@ specifiers:
   docx-react: ^1.0.5
   eslint: 7.32.0
   eslint-config-next: 11.1.2
-  eslint-config-prettier: 7.2.0
+  eslint-config-prettier: 8.5.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.0.0
   framer-motion: 3.10.6
@@ -110,9 +110,9 @@ devDependencies:
   cross-env: 7.0.3
   eslint: 7.32.0
   eslint-config-next: 11.1.2_f0c08676fa56135fe187b03854743cb5
-  eslint-config-prettier: 7.2.0_eslint@7.32.0
+  eslint-config-prettier: 8.5.0_eslint@7.32.0
   eslint-plugin-node: 11.1.0_eslint@7.32.0
-  eslint-plugin-prettier: 4.0.0_1896108410d6ca413b1fb82810caebba
+  eslint-plugin-prettier: 4.0.0_d71a1b04df5147fc347fc6c51a9168ef
   husky: 4.3.8
   lint-staged: 11.1.2
   npm-run-all: 4.1.5
@@ -3083,8 +3083,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-config-prettier/7.2.0_eslint@7.32.0:
-    resolution: {integrity: sha512-rV4Qu0C3nfJKPOAhFujFxB7RMP+URFyQqqOZW9DMRD7ZDTFyjaIlETU3xzHELt++4ugC0+Jm084HQYkkJe+Ivg==}
+  /eslint-config-prettier/8.5.0_eslint@7.32.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -3194,7 +3194,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_1896108410d6ca413b1fb82810caebba:
+  /eslint-plugin-prettier/4.0.0_d71a1b04df5147fc347fc6c51a9168ef:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -3206,7 +3206,7 @@ packages:
         optional: true
     dependencies:
       eslint: 7.32.0
-      eslint-config-prettier: 7.2.0_eslint@7.32.0
+      eslint-config-prettier: 8.5.0_eslint@7.32.0
       prettier: 2.3.2
       prettier-linter-helpers: 1.0.0
     dev: true
