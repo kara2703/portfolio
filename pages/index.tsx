@@ -5,7 +5,7 @@ import React from 'react';
 import SocialLinks from '@components/SocialLinks';
 import SvgWave from '@components/SvgWave';
 import backgroundImage from '../public/assets/crested-butte-2016-07-14.jpg';
-import meImage from '../public/assets/final.jpeg';
+import meImage from '../public/assets/final1.jpg';
 
 export interface HomeProps {}
 
@@ -22,15 +22,15 @@ const Home: React.FC<HomeProps> = () => {
             quality={60}
             objectPosition="50% 50%"
             objectFit="cover"
-            className="w-full h-full"
+            className="h-full w-full"
           />
         </div>
         <div
           className="absolute top-0 left-0 right-0 bottom-0"
           style={{ zIndex: -1, backgroundColor: '#000000aa' }}
         />
-        <div className="m-auto z-10">
-          <div className="space-y-4 text-center flex flex-col justify-center items-center">
+        <div className="z-10 m-auto">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="overflow-hidden rounded-full" style={{ height: 200, width: 200 }}>
               <Img
                 src={meImage}
@@ -42,12 +42,12 @@ const Home: React.FC<HomeProps> = () => {
               />
             </div>
 
-            <h1 className="text-6xl text-rose-600 font-bold">Hi!</h1>
+            <h1 className="text-6xl font-bold text-rose-600">Hi!</h1>
 
-            <h2 className="text-5xl text-white font-bold">I'm Anoushka Rakesh Kabra</h2>
+            <h2 className="text-5xl font-bold text-white">I'm Anoushka Rakesh Kabra</h2>
 
             <h3 className="text-2xl text-white">
-              and I'm a <span className="font-bold text-2xl">Software Engineer</span>
+              and I'm a <span className="text-2xl font-bold">Software Engineer</span>
             </h3>
 
             <SocialLinks color="text-white" />
