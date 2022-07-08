@@ -5,7 +5,7 @@ import React from 'react';
 import SocialLinks from '@components/SocialLinks';
 import SvgWave from '@components/SvgWave';
 import backgroundImage from '../public/assets/crested-butte-2016-07-14.jpg';
-import meImage from '../public/assets/kyle-pfromer.jpg';
+import meImage from '../public/assets/final.jpeg';
 
 export interface HomeProps {}
 
@@ -35,7 +35,7 @@ const Home: React.FC<HomeProps> = () => {
               <Img
                 src={meImage}
                 placeholder="blur"
-                alt="Kyle Pfromer"
+                alt="Anoushka Rakesh Kabra"
                 layout="fixed"
                 width={200}
                 height={200}
@@ -44,7 +44,7 @@ const Home: React.FC<HomeProps> = () => {
 
             <h1 className="text-6xl text-rose-600 font-bold">Hi!</h1>
 
-            <h2 className="text-5xl text-white font-bold">I'm Anoushka Kabrar</h2>
+            <h2 className="text-5xl text-white font-bold">I'm Anoushka Rakesh Kabra</h2>
 
             <h3 className="text-2xl text-white">
               and I'm a <span className="font-bold text-2xl">Software Engineer</span>

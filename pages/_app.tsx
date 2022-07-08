@@ -13,13 +13,13 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <DefaultSeo
-        titleTemplate="%s | Kyle Pfromer"
-        description="Kyle Pfromer's portfolio."
+        titleTemplate="%s | Anoushka Kabra"
+        description="Anoushka Rakesh Kabra's portfolio."
         openGraph={{
           type: 'website',
           locale: 'en_US',
           url: info.baseUrl,
-          site_name: 'Kyle Pfromer',
+          site_name: 'Anoushka Rakesh Kabra',
           images: [
             {
               width: 3922,
