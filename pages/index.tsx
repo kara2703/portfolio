@@ -42,7 +42,7 @@ const Home: React.FC<HomeProps> = () => {
               />
             </div>
 
-            <h1 className="text-6xl text-primary-500 font-bold">Hi!</h1>
+            <h1 className="text-6xl text-rose-600 font-bold">Hi!</h1>
 
             <h2 className="text-5xl text-white font-bold">I'm Anoushka Kabrar</h2>
 
