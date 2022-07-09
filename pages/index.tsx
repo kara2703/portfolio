@@ -7,6 +7,7 @@ import SvgWave from '@components/SvgWave';
 import backgroundImage from '../public/assets/background.jpg';
 import meImage from '../public/assets/final1.jpg';
 
+
 export interface HomeProps {}
 
 const Home: React.FC<HomeProps> = () => {
