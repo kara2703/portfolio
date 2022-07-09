@@ -4,10 +4,10 @@ import Page from '@components/Page';
 import React from 'react';
 import SocialLinks from '@components/SocialLinks';
 import SvgWave from '@components/SvgWave';
-import backgroundImage from '../public/assets/crested-butte-2016-07-14.jpg';
+import backgroundImage from '../public/assets/background.jpeg';
 import meImage from '../public/assets/final1.jpg';
 
-export interface HomeProps {}
+export interface HomeProps { }
 
 const Home: React.FC<HomeProps> = () => {
   return (
