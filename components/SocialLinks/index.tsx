@@ -1,5 +1,5 @@
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
-import { FaStackOverflow } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 import info from '@configs/info';
 import classnames from 'clsx';
 import Icon from '@components/Icon';
@@ -28,8 +28,8 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ spacing = 'space-x-4', color,
         <Icon as={FiLinkedin} aria-hidden className="w-10 h-10" />
       </a>
 
-      <a rel="noopener noreferrer" href={info.stackoverflow} aria-label="Stack Overflow">
-        <Icon as={FaStackOverflow} aria-hidden className="w-10 h-10" />
+      <a rel="noopener noreferrer" href={info.instagram} aria-label="Stack Overflow">
+        <Icon as={FaInstagram} aria-hidden className="w-10 h-10" />
       </a>
     </div>
   );
