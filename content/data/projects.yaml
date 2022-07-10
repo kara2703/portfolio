@@ -3,7 +3,7 @@
   description: An open-source library that manages your linux dotfiles using Rust.
   image: '/kdot.png'
   imageAlt: terminal running exa
-  github: https://github.com/kpfromer/kdot
+  github: https://github.com/kara2703/kdot
 
 - title: pforwords
   dates: June 2020 - Present
