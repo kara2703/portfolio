@@ -1,5 +1,5 @@
 // import { ProjectData, getProjects } from '@lib/projects';
-
+export {}
 // import { GetStaticProps } from 'next';
 // import GithubProject from '../components/Github/Project';
 // import Header from '@components/Header';
