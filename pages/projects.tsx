@@ -52,4 +52,3 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projects, ghProjects }) => {
 };
 
 export default ProjectPage;
-
