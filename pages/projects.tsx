@@ -13,7 +13,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const projects = await getProjects();
   const ghProjects = await fetchRepos('STARGAZERS', 12);
 
-  return{
+  return {
     props: {
       projects,
       ghProjects,
@@ -29,7 +29,7 @@ export const getStaticProps: GetStaticProps = async () => {
 export interface ProjectPageProps {
   projects: ProjectData[];
   ghProjects: any[];
-} 
+}
 
 const ProjectPage: React.FC<ProjectPageProps> = ({ projects, ghProjects }) => {
   return (
