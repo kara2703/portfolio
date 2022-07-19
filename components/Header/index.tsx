@@ -48,7 +48,6 @@ const Header: React.FC<HeaderProps> = ({ bottomNav = false }) => {
         {/* <NavLink href="/blog" mobile onClick={() => setVisible(false)}>
           Blog
         </NavLink> */}
-        
         <NavLink href="/resume" mobile onClick={() => setVisible(false)}>
           Experience
         </NavLink>
