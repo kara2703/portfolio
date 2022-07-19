@@ -12,13 +12,13 @@ const ContactPage: React.FC<ContactPageProps> = () => {
       <Heading id="about-me">About Me</Heading>
 
       <p>
-        Hi! My name is <span className="text-bold">Kyle Pfromer</span>. I am a full stack developer
-        that works a lot with TypeScript and JavaScript (though I have experience in C++ and Java).
+        Hi! My name is <span className="text-bold">Anoushka Rakesh Kabra</span>. I am very curious
+        person who enjoys learning about computer science, economics and finance.
         I am currently a computer science student at {/* TODO: rel */}
         <a className="text-yellow-600 underline" href="https://www.colorado.edu/">
-          CU Boulder
+          Cornell University, College of Engineering
         </a>
-        . When not programming I am snowboarding, hiking and biking.
+        . When not programming I am reading, dancing, or working out.
       </p>
 
       <Heading id="contact">Contact</Heading>
