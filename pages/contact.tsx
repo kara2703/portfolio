@@ -13,8 +13,7 @@ const ContactPage: React.FC<ContactPageProps> = () => {
 
       <p>
         Hi! My name is <span className="text-bold">Anoushka Rakesh Kabra</span>. I am very curious
-        person who enjoys learning about computer science, economics and finance.
-        I am currently a computer science student at
+        person who enjoys learning about computer science, economics and finance. I am currently a computer science student at
         <a className="text-yellow-600 underline" href="http://cis.cornell.edu/cornell-computing-information-science">
           Cornell University, College of Engineering
         </a>
