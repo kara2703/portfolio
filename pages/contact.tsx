@@ -20,7 +20,8 @@ const ContactPage: React.FC<ContactPageProps> = () => {
           href="http://cis.cornell.edu/cornell-computing-information-science"
         > */}
         <b> Cornell University, College of Engineering </b>
-        {/* </a> */}. When not programming, I am reading, dancing, or working out. I love travelling and have visited about 31 countries.
+        {/* </a> */}. When not programming, I am reading, dancing, or working out. I love travelling
+        and have visited about 31 countries.
       </p>
 
       <Heading id="contact">Contact</Heading>
