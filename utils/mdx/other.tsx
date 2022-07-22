@@ -20,7 +20,7 @@ const Header = ({ children, as: Type, ...props }) => {
   }
 
   return (
-    <Type {...props} className={`font-bold my-5 ${fontSize}`}>
+    <Type {...props} className={`my-5 font-bold ${fontSize}`}>
       {children}
     </Type>
   );

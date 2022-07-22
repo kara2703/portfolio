@@ -33,7 +33,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
       <a
         href={project.url}
         target="_blank"
-        className="text-md text-blue-700 dark:text-blue-300 font-semibold mb-3"
+        className="text-md mb-3 font-semibold text-blue-700 dark:text-blue-300"
       >
         {project.name}
       </a>
@@ -44,20 +44,20 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
       <div className="flex-grow" />
 
       <div className="flex space-x-3">
-        <div className="flex align-middle items-center">
+        <div className="flex items-center align-middle">
           <span
-            className="inline-block w-3 h-3 rounded-full"
+            className="inline-block h-3 w-3 rounded-full"
             style={{ backgroundColor: project.language.color }}
           />
           <span className="ml-2">{project.language.name}</span>
         </div>
 
-        <div className="flex align-middle items-center">
+        <div className="flex items-center align-middle">
           <GithubStar />
           <span className="ml-2">{project.stars}</span>
         </div>
 
-        <div className="flex align-middle items-center">
+        <div className="flex items-center align-middle">
           <GithubFork />
           <span className="ml-2">{project.forks}</span>
         </div>

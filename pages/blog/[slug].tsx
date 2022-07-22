@@ -83,7 +83,7 @@ const BlogPost: React.FC<BlogPostProps> = ({
       header={<Header />}
     >
       <Post
-        className="pt-4 katex-custom"
+        className="katex-custom pt-4"
         title={title}
         coverImage={coverImage}
         coverImagePlaceholder={coverImagePlaceholder}
@@ -93,9 +93,9 @@ const BlogPost: React.FC<BlogPostProps> = ({
         <MDXRemote {...body} components={blogMdxComponents} />
       </Post>
 
-      <div className="flex flex-col justify-center items-center space-y-8 my-6">
+      <div className="my-6 flex flex-col items-center justify-center space-y-8">
         {(previous || next) && (
-          <div className="w-full flex justify-center items-center">
+          <div className="flex w-full items-center justify-center">
             {previous && (
               <NextLink href={`/blog/${previous.slug}`}>
                 <a className="font-bold text-primary-500" rel="noopener noreferrer">

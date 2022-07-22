@@ -38,9 +38,9 @@ const Post: React.FC<PostProps> = ({
         />
       </div>
 
-      <div className="max-w-2xl mx-auto">
+      <div className="mx-auto max-w-2xl">
         <div className="mt-4">
-          <div className="text-3xl md:text-5xl font-bold">{title}</div>
+          <div className="text-3xl font-bold md:text-5xl">{title}</div>
           <div className="mt-2">{info.join(' | ')}</div>
         </div>
 

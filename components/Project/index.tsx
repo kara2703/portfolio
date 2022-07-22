@@ -23,8 +23,8 @@ const Project: React.FC<ProjectProps> = ({
       </div>
 
       <div className="mt-3">
-        <h1 className="text-xl md:text-2xl font-bold">{title}</h1>
-        <p className="text-md my-2 pb-1 border-b border-black dark:border-white border-opacity-20">
+        <h1 className="text-xl font-bold md:text-2xl">{title}</h1>
+        <p className="text-md my-2 border-b border-black border-opacity-20 pb-1 dark:border-white">
           {dates}
         </p>
         <p>{description}</p>
@@ -32,12 +32,12 @@ const Project: React.FC<ProjectProps> = ({
 
       <div className="flex-grow" />
 
-      <div className="flex mt-2">
+      <div className="mt-2 flex">
         <NextLink href={github} passHref>
           <IconButton
             as="a"
             overrideClassName
-            className="m-auto rounded-lg inline-block p-3 bg-gray-200 text-black hover:bg-gray-300 dark:hover:bg-gray-500 dark:text-white dark:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 transition-colors ease-in-out"
+            className="m-auto inline-block rounded-lg bg-gray-200 p-3 text-black transition-colors ease-in-out hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-500"
             icon={<FiGithub />}
             aria-label="Github Project"
             //  @ts-ignore

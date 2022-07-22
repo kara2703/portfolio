@@ -10,58 +10,64 @@ experience:
     location: Menlo Park, California
     logo: /assets/experience/meta.svg
     type: work
+    content: |
 
-  - companyName: Facebook
-    title: Software Engineer Intern
-    location: Menlo Park, California
-    logo: /assets/experience/facebook.svg
+  - companyName: University of North Florida
+    title: Software Engineer Research Volunteer
+    location: Jacksonville, Florida
+    logo: /assets/experience/unf.svg
     type: work
     content: |
-      Apart of the internal Network UI team.
+      - Conducted research on a “Web-based prototype for measuring vegetation coverage in Marsh Grass Photography using convolutional neural networks” under the supervision of Dr. Xudong Liu 
+      - Developed and designed a dynamic and interactive web-based interface for UNFAIL that utilizes machine learning to measure vegetation coverage in marsh grass images
 
-      - Delivered an internal UI to enable network engineers to quickly view and test various network topologies.
-      - Worked with various technologies, such as React, Hack, Thrift, GraphQL.
-
-  - companyName: Google
+  - companyName: Reliance Industies Limited
     title: Software Engineer Intern
     location: Sunnyvale, California
-    logo: /assets/experience/google.svg
+    logo: /assets/experience/Reliance.svg
     type: work
     content: |
-      - Worked on integrating Google Cloud AI's Platform Optimizer Product with JupyterLab.
-      - Enabled users to easily tune their machine learning model hyperparameters within the JupyterLab environment.
-      - Created a hierarchical data input system for conditional parameter trees.
+      - Conducted an in-depth study of robotics (an untouched landscape at Reliance) in the Hydrocarbon Industry
+      - Presented and researched on the basics of a process Historian server, ISA 95 Framework, and DevSecOps
+      - Discussed difficulties faced by end-users (on-site technicians) of the hydrocarbon plants and their possible developments with 10+ Tech Department Heads
+      - Discussed various robotic implementations with Mr. Aseem Sinha, Senior Vice President & Head Manufacturing IT at Reliance Industries Limited, on a weekly basis to boost efficiency of the Mumbai hydrocarbon manufacturing site by 35%.
 
   # Clubs
-  - companyName: HackCU
-    title: Co-Director
-    location: Boulder, Colorado
-    logo: /assets/experience/hackcu.svg
+  - companyName: Cornell Hyperloop
+    title: Software Sub-Team Member
+    location: Ithaca, New York
+    logo: /assets/experience/hyperloop.svg
     type: club
     content: |
-      - Lead website redesign and creation.
-      - Helped organize HackCU VI, a 400 person event hackathon
-      - Created live schedule website to help hackers get information and see event schedule.
-      - Presented Intro to Git/GitHub at HackCU VI.
+      - Researched (and will soon write on) ZCM code for onboard computers
+      - Worked on connecting sensors and Arduinos to the ODROID for the hyperloop pod
+      - Coded with a team of 4 members for the GUI that presents the pods real-time data on the controlling computer
 
-  - companyName: Fairview H.S. Web Team
-    title: Webmaster
-    location: Boulder, Colorado
-    logo: /assets/experience/webteam-full.jpg
+  - companyName: Techvik Blog
+    title: Head of Design
+    location: Hydrebad, India
+    logo: /assets/experience/hyperloop.svg
     type: club
     content: |
-      - Programmed and co-managed an organization of 8 members which maintained Fairview High School's student-run website, written with Ruby On Rails and has over 400,000 lines of code and nearly 5,000 commits; on average it served over 100,000 weekly page views from students, staff, and parents.
-      - Worked on a content creation system (akin to Weebly or Squarespace) that helps our counselors create helpful and engaging content for students and parents; collaborated with counselors.
-      - Created Silent Auction, a responsive web application written for the school's National Honor Society used by parents and students to bid on charity items.
+      -	Designed the website, and all the social media announcements for varying purposes
+      - Delegated tasks for illustrations for the blog to the design team of 10+ members
+
+  - companyName: Cornell Current
+    title: Data Analyst for the Economy sector
+    location: Ithaca, New York
+    logo: /assets/experience/hyperloop.svg
+    type: club
+    content: |
+      -	Developed analytical tools using python to dynamically analyze trends in different economies as they unfold
+      - Presented the gathered data and insights of unique world economic problems on a weekly basis to a team of 20+ people
 
   # Startups
-  - companyName: Truffle
-    title: DevOps Engineer
-    location: Golden, Colorado
-    logo: /assets/experience/truffle.svg
+  - companyName: Lifeplan Technical Solutions
+    title: Research Intern
+    location: Mumbai, India
+    logo: /assets/experience/lifeplan.svg
     type: startup
     content: |
-      - Worked at Truffle (originally called Spore), a creator space startup, as a DevOps Engineer.
-      - Worked on Kubernetes backend infrastructure.
-      - Integrated Kubernetes with FluxCD to move to a GitOps workflow.
-      - Made application deployment completely automated with manual promotion from staging to production.
+      - Researched on a novel, efficient cloud-based platform for cold chain supply management's end users and manufacturers, which integrated Artificial Intelligence, and Internet of Things
+      - Focused on migrating the current manual process to an innovative concept based architecture for data storage
+      - Prepared a pitch and designed a business portfolio for the cloud-based platform considering the start-up’s constraints and funding

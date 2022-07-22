@@ -41,7 +41,7 @@ const CodeBlock: React.FC<CodeBlockProps> = ({
   return (
     <div {...rest} className={classnames('transition-colors duration-500', showTopbar && 'my-3')}>
       {showTopbar && (
-        <div className="text-gray-800 dark:text-gray-200 py-2 px-5 border-t border-l border-r border-gray-100 dark:border-gray-700 rounded-t bg-gray-200 dark:bg-naturalGray-400 font-bold">
+        <div className="rounded-t border-t border-l border-r border-gray-100 bg-gray-200 py-2 px-5 font-bold text-gray-800 dark:border-gray-700 dark:bg-naturalGray-400 dark:text-gray-200">
           {filename}
         </div>
       )}
@@ -57,14 +57,14 @@ const CodeBlock: React.FC<CodeBlockProps> = ({
           <pre
             style={style}
             className={classnames(
-              'text-gray-200 overflow-x-auto text-sm leading-relaxed py-3 px-5 border bg-gray-50 border-gray-200 dark:border-gray-700 dark:bg-naturalGray-600',
+              'overflow-x-auto border border-gray-200 bg-gray-50 py-3 px-5 text-sm leading-relaxed text-gray-200 dark:border-gray-700 dark:bg-naturalGray-600',
               showTopbar ? 'mt-0 rounded-b' : 'my-3 rounded',
             )}
           >
             {tokens.map((line, i) => (
               <div key={i} {...getLineProps({ line, key: i })} className="table-row">
                 {!noLineNumbers && (
-                  <div className="text-black dark:text-white table-cell text-right pr-2 select-none opacity-50">
+                  <div className="table-cell select-none pr-2 text-right text-black opacity-50 dark:text-white">
                     {i + 1}
                   </div>
                 )}

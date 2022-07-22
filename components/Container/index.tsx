@@ -9,7 +9,7 @@ const Container: React.FC<ContainerProps> = ({ children, ...props }) => {
       <div
         {...props}
         style={{ ...props.style, maxWidth: 900 }}
-        className={classnames('lg:px-0 mx-auto px-3 sm:px-4 md:px-0', props.className)}
+        className={classnames('mx-auto px-3 sm:px-4 md:px-0 lg:px-0', props.className)}
       >
         {children}
       </div>

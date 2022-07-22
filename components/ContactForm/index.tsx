@@ -65,9 +65,9 @@ const ContactForm: React.FC<ContactFormProps> = () => {
   });
 
   return (
-    <form className="w-full flex flex-col space-y-2" onSubmit={onSubmit}>
+    <form className="flex w-full flex-col space-y-2" onSubmit={onSubmit}>
       {status === 'error' && (
-        <div className="bg-red-500 rounded border border-red-700 shadow p-2 text-white">
+        <div className="rounded border border-red-700 bg-red-500 p-2 text-white shadow">
           Something went wrong!
         </div>
       )}

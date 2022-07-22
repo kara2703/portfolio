@@ -7,7 +7,7 @@ import baseMdxComponents from './base';
 const mdxComponents: MDXProviderComponentsProp = {
   ...baseMdxComponents,
   img: (props) => (
-    <div className="rounded my-3 overflow-hidden flex">
+    <div className="my-3 flex overflow-hidden rounded">
       <Img {...props} className="bg-white" />
     </div>
   ),

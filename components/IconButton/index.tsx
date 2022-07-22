@@ -56,7 +56,7 @@ const IconButton = forwardRef<HTMLElement, IconButtonProps>(
           overrideClassName
             ? props.className
             : classnames(
-                'rounded-lg inline-block p-3 bg-gray-200 text-black hover:bg-gray-300 dark:text-white dark:bg-naturalGray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 transition-colors ease-in-out',
+                'inline-block rounded-lg bg-gray-200 p-3 text-black transition-colors ease-in-out hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 dark:bg-naturalGray-500 dark:text-white',
                 props.className,
               )
         }

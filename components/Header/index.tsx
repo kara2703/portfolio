@@ -12,7 +12,7 @@ const NavLink: React.FC<
   Omit<HTMLAttributes<HTMLAnchorElement>, 'href'> & { href: string; mobile?: boolean }
 > = ({ href, children, mobile = false, ...props }) => (
   <NextLink href={href} passHref>
-    <a {...props} className={classnames('font-bold', mobile ? 'text-2xl py-2' : 'text-xl')}>
+    <a {...props} className={classnames('font-bold', mobile ? 'py-2 text-2xl' : 'text-xl')}>
       {children}
     </a>
   </NextLink>
@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ bottomNav = false }) => {
 
   const mobileNav = (
     <Container className={visible ? 'visible' : 'hidden'}>
-      <div className={classnames('py-2 flex flex-col space-y-2', visible ? 'visible' : 'hidden')}>
+      <div className={classnames('flex flex-col space-y-2 py-2', visible ? 'visible' : 'hidden')}>
         <NavLink href="/" mobile onClick={() => setVisible(false)}>
           Home
         </NavLink>
@@ -65,7 +65,7 @@ const Header: React.FC<HeaderProps> = ({ bottomNav = false }) => {
     <HeaderContainer>
       {bottomNav && mobileNav}
 
-      <Container className="flex justify-center items-center">
+      <Container className="flex items-center justify-center">
         <IconButton
           className="sm:hidden"
           icon={<FiMenu />}
@@ -75,7 +75,7 @@ const Header: React.FC<HeaderProps> = ({ bottomNav = false }) => {
 
         <div className="hidden sm:flex sm:flex-row sm:space-x-3">
           <NavLink href="/">Home</NavLink>
-          <NavLink href="/blog">Blog</NavLink>
+          {/* <NavLink href="/blog">Blog</NavLink> */}
           <NavLink href="/resume">Resume</NavLink>
           <NavLink href="/projects">Projects</NavLink>
           <NavLink href="/contact">Contact</NavLink>

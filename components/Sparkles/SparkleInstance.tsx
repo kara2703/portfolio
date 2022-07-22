@@ -10,7 +10,7 @@ export const SparkleInstance: React.FC<Props> = ({ color, size, style }) => {
   return (
     <span
       style={{ ...style, transform: 'translate(-50%, -50%)' }}
-      className="absolute block pointer-events-none motion-safe:animate-grow-and-shrink"
+      className="pointer-events-none absolute block motion-safe:animate-grow-and-shrink"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

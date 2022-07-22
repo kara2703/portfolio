@@ -13,7 +13,7 @@ import tw from 'tailwind-styled-components';
 
 const Seperator = () => (
   <div className="flex flex-grow" role="separator">
-    <div className="my-auto flex-grow h-0.5 bg-gray-500 dark:gray-200" />
+    <div className="dark:gray-200 my-auto h-0.5 flex-grow bg-gray-500" />
   </div>
 );
 
@@ -107,7 +107,7 @@ const ResumePage: React.FC<ResumePageProps> = ({ experience }) => {
         </div>
       ))}
 
-      <a rel="noopener" target="_blank" href={info.resume} className="my-5 btn-primary">
+      <a rel="noopener" target="_blank" href={info.resume} className="btn-primary my-5">
         View Resume
       </a>
     </Page>

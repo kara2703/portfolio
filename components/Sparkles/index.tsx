@@ -81,7 +81,7 @@ const Sparkles: React.FC<SparklesProps> = ({
   return (
     <span onClick={toggleAnimation} {...rest}>
       <strong
-        className="relative font-bold cursor-pointer"
+        className="relative cursor-pointer font-bold"
         style={{
           zIndex: 1,
         }}

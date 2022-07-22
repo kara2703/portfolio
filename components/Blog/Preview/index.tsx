@@ -32,7 +32,7 @@ const Preview: React.FC<PreviewProps> = ({
       <div className="flex-grow" />
 
       <div className="mt-3">
-        <h2 className="text-xl md:text-2xl font-bold">{title}</h2>
+        <h2 className="text-xl font-bold md:text-2xl">{title}</h2>
         <p className="text-md mt-2">{DateTime.fromISO(created).toFormat('DDD')}</p>
       </div>
     </Card>

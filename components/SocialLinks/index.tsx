@@ -17,19 +17,19 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ spacing = 'space-x-4', color,
       className={classnames(
         props.className,
         spacing,
-        color ? color : 'text-gray-700 dark:text-white transition-colors duration-500',
+        color ? color : 'text-gray-700 transition-colors duration-500 dark:text-white',
       )}
     >
       <a target="_blank" rel="noopener noreferrer" href={info.github} aria-label="Github">
-        <Icon as={FiGithub} aria-hidden className="w-10 h-10" />
+        <Icon as={FiGithub} aria-hidden className="h-10 w-10" />
       </a>
 
       <a target="_blank" rel="noopener noreferrer" href={info.linkedin} aria-label="LinkedIn">
-        <Icon as={FiLinkedin} aria-hidden className="w-10 h-10" />
+        <Icon as={FiLinkedin} aria-hidden className="h-10 w-10" />
       </a>
 
       <a rel="noopener noreferrer" href={info.instagram} aria-label="Stack Overflow">
-        <Icon as={FaInstagram} aria-hidden className="w-10 h-10" />
+        <Icon as={FaInstagram} aria-hidden className="h-10 w-10" />
       </a>
     </div>
   );
