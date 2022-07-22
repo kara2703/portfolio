@@ -51,7 +51,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
 
   const { register, handleSubmit } = useForm<FormData>();
   const onSubmit = handleSubmit(({ email, message }) => {
-    fetch('https://formspree.io/mdokobow', {
+    fetch('https://formspree.io/f/xknydvkw', {
       method: 'post',
       body: JSON.stringify({ email, message }),
       headers: { Accept: 'application/json' },
