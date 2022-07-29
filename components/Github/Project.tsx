@@ -27,6 +27,7 @@ const GithubFork = () => (
 );
 
 const Project: React.FC<ProjectProps> = ({ project }) => {
+  console.log(project)
   const updatedAt = DateTime.fromISO(project.updatedAt);
   return (
     <Card>
@@ -47,9 +48,9 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
         <div className="flex items-center align-middle">
           <span
             className="inline-block h-3 w-3 rounded-full"
-            style={{ backgroundColor: project.language.color }}
+            style={{ backgroundColor: project.language?.color ?? '#fff' }}
           />
-          <span className="ml-2">{project.language.name}</span>
+          <span className="ml-2">{project.language?.name}</span>
         </div>
 
         <div className="flex items-center align-middle">

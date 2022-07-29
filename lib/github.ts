@@ -35,7 +35,7 @@ export const fetchRepos = async (sort: SortType, limit: number) => {
       }
     `,
     {
-      username: 'kpfromer',
+      username: 'kara2703',
       limit,
       sort,
       headers: {
