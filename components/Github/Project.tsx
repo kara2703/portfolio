@@ -27,7 +27,7 @@ const GithubFork = () => (
 );
 
 const Project: React.FC<ProjectProps> = ({ project }) => {
-  console.log(project)
+  console.log(project);
   const updatedAt = DateTime.fromISO(project.updatedAt);
   return (
     <Card>
