@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/kpfromer/portfolio"
+    "url": "https://github.com/kara2703/portfolio"
   },
   "scripts": {
     "dev": "next dev",
