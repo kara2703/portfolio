@@ -77,7 +77,7 @@ const Header: React.FC<HeaderProps> = ({ bottomNav = false }) => {
           <NavLink href="/">Home</NavLink>
           {/* <NavLink href="/blog">Blog</NavLink> */}
           <NavLink href="/resume">Resume</NavLink>
-          <NavLink href="/projects">Projects</NavLink>
+          {/* <NavLink href="/projects">Projects</NavLink> */}
           <NavLink href="/contact">Contact</NavLink>
         </div>
 
