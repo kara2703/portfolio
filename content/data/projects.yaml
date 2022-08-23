@@ -1,4 +1,4 @@
-- title: kdot
+- title: 
   dates: February 2021 - Present
   description: An open-source library that manages your linux dotfiles using Rust.
   image: '/kdot.png'
