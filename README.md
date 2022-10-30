@@ -2,7 +2,9 @@
 
 ## Description
 
-This the code for my [portfolio website](https://kylepfromer.com).
+This the code for my [portfolio website](https://anoushkakabra.com).
+It was forked from my friend's (Kyle Pformer) git with his permission, ofcourse. 
+
 
 ## Installation
 
