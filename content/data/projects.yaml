@@ -3,14 +3,14 @@
   description: An open-source library that manages your linux dotfiles using Rust.
   image: '/kdot.png'
   imageAlt: terminal running exa
-  github: https://github.com/kpfromer/kdot
+  github: https://github.com/kara2703/
 
 - title: pforwords
   dates: June 2020 - Present
   description: A Gatsby website for my sister's sustainability blog.
   image: '/pforwords.png'
   imageAlt: The pforwords website with a list of blog posts.
-  github: https://github.com/kpfromer/pforwords
+  github: https://github.com/kara2703/
 
 - title: nestjs-typegoose
   dates: April 2018 - Present
@@ -19,14 +19,14 @@
     (TypeScript wrapper for mongoose).
   image: '/nestjs-typegoose.png'
   imageAlt: Nest.js Logo
-  github: https://github.com/kpfromer/nestjs-typegoose
+  github: https://github.com/kara2703/
 
 - title: csvtasks
   dates: February 2020 - Present
   image: '/csv-tasks.png'
   imageAlt: Spreadsheet with task items
   description: A tool that syncs spreedsheet data with google tasks.
-  github: https://github.com/kpfromer/csvtasks
+  github: https://github.com/kara2703/
 
 - title: Silent Auction
   dates: February 2019
@@ -35,7 +35,7 @@
   description:
     Responsive web application written National Honor Society used by parents and students to bid on
     charity items.
-  github: https://github.com/kpfromer/csvtasks
+  github: https://github.com/kara2703/
 
 - title: Movie Chooser
   dates: September 2019 - November 2019
@@ -43,4 +43,4 @@
   imageAlt: Movie chooser website with Dark Knight movie poster
   description:
     A web app that allows for people to add movies that they want to watch on movie night.
-  github: https://github.com/kpfromer/movie-chooser-backend
+  github: https://github.com/kara2703/
