@@ -15,10 +15,12 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
+    "@analytics/google-tag-manager": "^0.5.3",
     "@mdx-js/react": "1.6.22",
     "@octokit/graphql": "4.8.0",
     "@plaiceholder/base64": "1.0.0",
     "@tailwindcss/typography": "0.5.2",
+    "analytics": "^0.8.1",
     "autoprefixer": "10.3.1",
     "clsx": "1.1.1",
     "docx": "7.3.0",
