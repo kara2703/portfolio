@@ -3,15 +3,7 @@ import Header from '@components/Header';
 import { Heading } from '@components/Heading';
 import Page from '@components/Page';
 import React from 'react';
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4V13E5MCHH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-4V13E5MCHH');
-</script>
 export interface ContactPageProps {}
 
 const ContactPage: React.FC<ContactPageProps> = () => {
