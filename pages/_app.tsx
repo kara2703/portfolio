@@ -5,6 +5,7 @@ import DarkModeProvider from '@utils/dark-mode-provider';
 import { useGoogleAnalytics } from '@hooks/gtag';
 import { SmoothScroll } from '@utils/smooth-scroll';
 
+
 import '../styles/global.css';
 
 function MyApp({ Component, pageProps }: AppProps) {

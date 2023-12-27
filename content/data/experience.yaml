@@ -1,16 +1,32 @@
 titles:
-  work: Work
+  firms: Work Experiences
   startup: Startups
   club: Clubs
 
 experience:
   # Big Companies
-  - companyName: Meta
+
+  - companyName: Millennium Management LLC
+    title: Software Technology Analyst 
+    location: Miami, Florida
+    logo: 
+    type: work
+    content: |
+      - Developed web socket protocols and communication channels to minimize latency by 95% and maximize throughput by 50% for improved user experience for in-house clients
+      - Evaluated traders’/portfolio managers' needs for the platform and employed debugging and profiling tools to identify performance bottlenecks 
+      - Analyzed scalability limitations of the existing methodology as volumes increased (3x), and implemented optimization techniques 
+
+
+  - companyName: Meta (Facebook Inc.)
     title: Software Engineering Intern
     location: Menlo Park, California
     logo: /assets/experience/meta.svg
     type: work
     content: |
+      - Developed and led the creation of a new micro-service (to replace a current API/feature from a monolithic application) for WhatsApp Product Foundation’s backend architecture (including code migration, service, alerts, and dashboard setup and protocol handling) 
+      - Created test suites and lead rollout for everyday use cases which catered to about 2.95 billion users
+      - Collaborated with 70 people in the infrastructure section to increase the reliability of WhatsApp
+
 
   - companyName: University of North Florida
     title: Software Engineer Research Volunteer
@@ -33,6 +49,16 @@ experience:
       - Discussed various robotic implementations with Mr. Aseem Sinha, Senior Vice President & Head Manufacturing IT at Reliance Industries Limited, on a weekly basis to boost efficiency of the Mumbai hydrocarbon manufacturing site by 35%.
 
   # Clubs
+  - companyName: Cornell FinTech Club
+    title: Executive Board Member & Engineering Lead
+    location: Ithaca, New York
+    logo: /assets/experience/CFT.svg
+    type: club
+    content: |
+      - Developed a portfolio analysis and pseudo-trading web application platform
+      - Lead a team of 20 + members to build the backend framework for portfolio analysis integration (ranking profitable assets and risk management features) 
+      - Spearheaded the system design and website development design process for the abstract foundation systems team 
+
   - companyName: Cornell Hyperloop
     title: Software Sub-Team Member
     location: Ithaca, New York
