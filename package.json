@@ -20,6 +20,7 @@
     "@octokit/graphql": "4.8.0",
     "@plaiceholder/base64": "1.0.0",
     "@tailwindcss/typography": "0.5.2",
+    "@types/unist": "^3.0.2",
     "@vercel/analytics": "^1.0.0",
     "analytics": "^0.8.1",
     "autoprefixer": "10.3.1",
